@@ -1,4 +1,4 @@
-FROM centos:centos8
+FROM arm64v8/centos:centos8
 MAINTAINER Rene Cannao <rene.cannao@gmail.com>
 
 RUN yum install epel-release -y

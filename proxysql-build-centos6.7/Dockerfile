@@ -1,4 +1,4 @@
-FROM centos:centos6.7
+FROM arm64v8/centos:centos6.7
 MAINTAINER Rene Cannao <rene.cannao@gmail.com>
 
 RUN yum install -y yum-plugin-ovl

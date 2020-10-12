@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM arm64v8/ubuntu:16.04
 MAINTAINER Rene Cannao <rene.cannao@gmail.com>
 
 RUN chmod 777 /tmp

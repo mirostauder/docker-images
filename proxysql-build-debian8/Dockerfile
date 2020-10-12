@@ -1,4 +1,4 @@
-FROM debian:8.2
+FROM arm64v8/debian:8.2
 MAINTAINER Rene Cannao <rene.cannao@gmail.com>
 
 RUN chmod 777 /tmp

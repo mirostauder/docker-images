@@ -1,4 +1,4 @@
-FROM debian:10
+FROM arm64v8/debian:10
 MAINTAINER Rene Cannao <rene.cannao@gmail.com>
 
 RUN chmod 777 /tmp

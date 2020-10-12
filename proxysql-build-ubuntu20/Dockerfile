@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM arm64v8/ubuntu:20.04
 MAINTAINER Nick Vyzas <nick@proxysql.com>
 
 RUN chmod 777 /tmp
